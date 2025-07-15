@@ -9,7 +9,7 @@ from telegram.ext import (
 )
 
 # Получение переменных окружения
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8097493214:AAEn2-fFVZ-pt3C39aZt6uiLP3ibHqigwgo")
 CHANNEL_IDS = list(map(int, os.getenv("CHANNEL_IDS", "").split(",")))
 
 # Подключение к SQLite
